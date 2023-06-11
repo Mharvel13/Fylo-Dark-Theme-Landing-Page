@@ -596,6 +596,26 @@ video {
   margin: 0px;
 }
 
+.m-auto {
+  margin: auto;
+}
+
+.m-24 {
+  margin: 6rem;
+}
+
+.m-16 {
+  margin: 4rem;
+}
+
+.m-10 {
+  margin: 2.5rem;
+}
+
+.m-12 {
+  margin: 3rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -624,6 +644,21 @@ video {
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.my-20 {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 
 .ml-1 {
@@ -656,6 +691,18 @@ video {
 
 .ml-2 {
   margin-left: 0.5rem;
+}
+
+.mr-8 {
+  margin-right: 2rem;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .flex {
@@ -736,6 +783,10 @@ video {
 
 .w-28 {
   width: 7rem;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
 }
 
 .grid-cols-2 {
@@ -859,6 +910,10 @@ video {
   padding: 3rem;
 }
 
+.p-3 {
+  padding: 0.75rem;
+}
+
 .px-8 {
   padding-left: 2rem;
   padding-right: 2rem;
@@ -907,6 +962,21 @@ video {
   line-height: 1rem;
 }
 
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-8xl {
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -921,6 +991,10 @@ video {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-light {
+  font-weight: 300;
 }
 
 .text-Cyan-cta {
@@ -969,9 +1043,23 @@ video {
     margin: 2rem;
   }
 
+  .md\:m-2 {
+    margin: 0.5rem;
+  }
+
   .md\:my-12 {
     margin-top: 3rem;
     margin-bottom: 3rem;
+  }
+
+  .md\:mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .md\:my-20 {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
   }
 
   .md\:ml-16 {
@@ -984,6 +1072,10 @@ video {
 
   .md\:mb-8 {
     margin-bottom: 2rem;
+  }
+
+  .md\:mr-8 {
+    margin-right: 2rem;
   }
 
   .md\:flex {
@@ -1010,8 +1102,28 @@ video {
     width: 33.333333%;
   }
 
+  .md\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .md\:w-1\/4 {
+    width: 25%;
+  }
+
+  .md\:w-full {
+    width: 100%;
+  }
+
+  .md\:w-2\/4 {
+    width: 50%;
+  }
+
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:flex-col {
+    flex-direction: column;
   }
 
   .md\:items-center {
