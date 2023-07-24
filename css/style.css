@@ -738,9 +738,6 @@ video {
   background-color: hsl(219 30% 18% / var(--tw-bg-opacity));
 }
 
-.bg-wavy-pattern-mobile {
-  background-image: url('../images/bg-curvy-mobile.svg');
-}
 
 .bg-contain {
   background-size: contain;
@@ -962,6 +959,10 @@ video {
     background-image: url('../images/bg-curvy-desktop.svg');
   }
 }
+.bg-wavy-pattern-mobile {
+  background-image: url('../images/bg-curvy-mobile.svg');
+}
+
 
 @media (min-width: 1024px) {
   .lg\:w-1\/6 {
