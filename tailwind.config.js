@@ -14,8 +14,8 @@ module.exports = {
                 White: " hsl(0, 0%, 100%)",
             },
             backgroundImage: {
-                "wavy-pattern-desktop": "url('/images/bg-curvy-desktop.svg')",
-                "wavy-pattern-mobile": "url('/images/bg-curvy-mobile.svg')",
+                "wavy-pattern-desktop": "url('../images/bg-curvy-desktop.svg')",
+                "wavy-pattern-mobile": "url('../images/bg-curvy-mobile.svg')",
             },
         },
     },
